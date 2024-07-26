@@ -16,10 +16,10 @@
          let num2=parseFloat(document.getElementById('num2').value);
          let num3=parseFloat(document.getElementById('num3').value);
 
-         if(num1>num2 && num1<num3){
+         if(num1>=num2 && num1<=num3){
             document.getElementById('secondlargest').innerHTML=(num1 + " is the Second Largest Number");
          }
-         else if (num2> num1 && num2<num3){
+         else if (num2>= num1 && num2<=num3){
             document.getElementById('secondlargest').innerHTML=(num2 + " is the Second Largest Number");
          }
          else{
